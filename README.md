@@ -1,5 +1,5 @@
-This is a simple dockerized Spring-Spark web app for the sake of comparison with a Ktor-Spark app.
-Both apps dynamically invoke a local Spark job when [http://localhost:8888](http://localhost:8888) is requested.
+This is a simple dockerized Spring-Spark web app for the sake of comparison with a [Ktor-Spark app](https://github.com/tyknkd/ktor-spark).
+Both apps dynamically invoke a local Spark job when the root path is requested.
 However, the Ktor-Spark app throws an `org.apache.hadoop.fs.UnsupportedFileSystemException` exception, whereas
 the Spring-Spark app does not.
 
